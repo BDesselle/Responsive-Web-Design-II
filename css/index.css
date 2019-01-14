@@ -82,14 +82,16 @@ h1, h2, h3, h4, h5 {
 /*Navigation===============================================*/
 .navigationBar {
 	height: 60px;
-    width: 800px;
-    margin: 20px 40px 20px;
+    width: 90.9%;
+    margin: 20px 4.5% 20px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .navigationBar nav {
     align-self: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .navigationBar img {
@@ -99,22 +101,23 @@ h1, h2, h3, h4, h5 {
 
 .navigationBar nav a {
 	justify-self: flex-start;
-    margin-right: 45px;
-	color: grey;
+    margin-right: 7.5%;
+    color: grey;
+    text-decoration: none;
 }
 
 /*Header==================================================*/
 header {
-	width: 800px;
+	width: 90.9%;
     height: 450px;
-    margin: 0px 40px 0px;
+    margin: 0px 4.5 0px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .header h1 {
-	font-size: 70px;
+	font-size: 7.0rem;
 	margin: auto;
 	text-align: center;
 }
@@ -122,40 +125,40 @@ header {
 .header button {
     border: 1px solid black;
     background-color: white;
-	width: 155px;
+	width: 51.8%;
 	height: 30px;
 }
 
 /*TopContent===============================================*/
 .topContent {
-    width: 800px;
+    width: 90.9%;
     height: 160px;
-    margin: 0px 40px 0px;
+    margin: 0px 4.5% 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .leftDiv {
-    margin-right: 10px;
+    margin-right: 1.1%;
 }
 
 /*BodyIMG==================================================*/
 .bodyImg {
     display: flex;
-    margin: 0px 40px 0px;
+    margin: 0px 4.5% 0px;
 }
 
 .middle-img {
-    width: 800px;
+    width: 90.9%;
 }
 
 /*BottomContent============================================*/
 
 .bottomContent {
-	width: 800px;
+	width: 90.9%;
     height: 200px;
-    margin: 0px 40px 0px;
+    margin: 0px 4.5% 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -167,9 +170,9 @@ header {
 
 /*Contact=================================================*/
 .contactContent {
-	width: 800px;
+	width: 90.9%;
     height: 200px;
-    margin: 0px 40px 0px;
+    margin: 0px 4.5% 0px;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
@@ -177,8 +180,8 @@ header {
 
 /*Footer==================================================*/
 footer {
-    width: 800px;
-    margin: 0px 40px 0px;
+    width: 90.9%;
+    margin: 0px 4.5% 0px;
 	justify-content: center;
 	align-content: flex-end;
 	display: flex;
@@ -186,7 +189,7 @@ footer {
 }
 
 hr {
-    width: 800px;
+    width: 90.9%;
 }
 
 /*Media Query===========================================*/
@@ -195,22 +198,22 @@ hr {
 @media only screen and (max-width: 800px) {
 
     .container {
-        height: 1400px;
-        width: 800px;
+        height: 1300px;
+        width: 100%;
         margin: 0px;
     }
 
     .bodyImg {
-        width: 750px;
+        width: 93.75%;
     }
 
     .navigationBar {
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-left: 25px;
-        margin-right: 25px;
-        width: 750px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        width: 93.75%;
     }
 
     .navigationBar img {
@@ -220,10 +223,14 @@ hr {
 
     .navigationBar nav {
         order: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     
     .navigationBar nav a {
         color: grey;
+        text-decoration: none;
     }
 
     header img {
@@ -235,18 +242,18 @@ hr {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 750px;
-        margin: 60px 25px 60px 25px;
+        width: 93.75%;
+        margin: 60px 3.1% 60px 3.1%;
     }
 
     hr {
-        margin-left: 25px;
-        margin-right: 25px;
-        width: 750px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        width: 93.75%;
     }
     
     .header h1 {
-        font-size: 70px;
+        font-size: 7.0rem;
         margin: auto;
         text-align: center;
     }
@@ -254,7 +261,7 @@ hr {
     .header button{
         border: 1px solid black;
         border-radius: 5px;
-        width: 155px;
+        width: 51.8%;
         height: 30px;
     }
 
@@ -262,45 +269,45 @@ hr {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 750px;
-        margin-left: 25px;
-        margin-right: 25px;
+        width: 93.75%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
     .bottomContent {
-        width: 750px;
-        margin-left: 25px;
-        margin-right: 25px;
+        width: 93.75%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
 
     .bodyImg {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
 
     .middle-img {
-        width: 750px;
+        width: 93.75%;
     }
 
     .contactContent {
-        width: 750px;
-        margin-left: 25px;
-        margin-right: 25px;
+        width: 93.75%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
 
     .leftDiv {
-        width: 370px;
+        width: 46.2%;
         margin-left: 20px;
     }
 
     .rightDiv {
-        width: 370px;
+        width: 46.2%;
         margin-right: 20px;
     }
 
     footer {
-        width: 750px;
-        margin-left: 25px;
-        margin-right: 25px;
+        width: 93.75%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
 
     .header button {
@@ -313,12 +320,12 @@ hr {
 @media only screen and (max-width: 500px) {
     .container {
     width: 500px;
-    height: 2000px;
+    height: 1950px;
     margin: 0px;
     }
 
     .navigationBar {
-        width: 500px;
+        width: 100%;
         margin: 0px;
     }
 
@@ -330,6 +337,8 @@ hr {
 
     .navigationBar nav {
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .navigationBar nav a {
@@ -337,68 +346,69 @@ hr {
         display: block;
         width: 500px;
         height: 56px;
-        font-size: 20px;
+        font-size: 2.0rem;
         margin: 0px 0px 0px;
         padding-top: 15px;
         padding-bottom: 15px;
         border-top: 1px solid black;
+        text-decoration: none;
     }
 
     .header {
         height: 380px;
-        width: 500px;
+        width: 100%;
         margin: 0px 0px 0px;
         border-top: 1px solid black;
     }
 
     hr {
-        width: 458px;
+        width: 91.6%;
         margin: 0px 20px 0px;
         border: 1px solid black;
     }
 
     .topContent {
-        width: 460px;
+        width: 92%;
         height: 300px;
         margin: 0px 20px 0px;
         display: block;
     }
 
     .topContent div {
-        width: 460px;
+        width: 92%;
         margin: 50px 0px 10px;
     }
 
     .bodyImg {
-        width: 500px;
+        width: 100%;
         margin: 0px;
     }
 
     .middle-img {
-        width: 460px;
+        width: 92%;
         margin: 0px 20px 0px;
     }
 
     .bottomContent {
         height: 440px;
-        width: 460px;
+        width: 92%;
         margin: 0px 20px 0px;
         display: block;
     }
 
     .bottomContent div {
-        width: 460px;
+        width: 92%;
         margin: 30px 0px 60px;
     }
 
     .contactContent {
         height: 175px;
-        width: 460px;
-        margin: 30px 20px 0px;
+        width: 92%;
+        margin: 30px 4% 0px;
     }
 
     footer {
-        width: 460px;
+        width: 92%;
         margin: 0px 20px 0px;
     }
 
